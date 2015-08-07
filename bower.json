@@ -1,0 +1,20 @@
+{
+  "name": "Unit-test-angular",
+  "version": "0.0.0",
+  "authors": [
+    "Ricardo Ibarra <ribarra@tekmexico.com>"
+  ],
+  "description": "This is a test for karma-jazmine-angularjs",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}
