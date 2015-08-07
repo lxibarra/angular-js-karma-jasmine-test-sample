@@ -1,4 +1,4 @@
-angular.module('exampleApp').controller('defaultCtrl', function($scope, $http, $interval, $timeout) {
+angular.module('exampleApp').controller('defaultCtrl', function($scope, $http, $interval, $timeout, $log) {
 
     $scope.intervalCounter = 0;
     $scope.timerCounter = 0;
@@ -13,7 +13,7 @@ angular.module('exampleApp').controller('defaultCtrl', function($scope, $http, $
 
     $http.get('productData.json').then(function(data) {
         $scope.products = data.data;
-
+        $log.log("There are " + data.length + " items");
     });
 
     $scope.counter = 0;
