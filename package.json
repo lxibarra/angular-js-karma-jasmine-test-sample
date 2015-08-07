@@ -13,5 +13,8 @@
     "karma": "^0.13.8",
     "karma-jasmine": "^0.3.6",
     "karma-phantomjs-launcher": "^0.2.1"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/karma start --single-run --browsers PhantomJS"
   }
 }
