@@ -15,8 +15,5 @@ describe('first test', function() {
         expect(counter).toBe(-1);
     });
 
-    it('Fail', function() {
-       expect(1).toBe(false);
-    });
 
 });
